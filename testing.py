@@ -29,6 +29,7 @@ try:
 
         # Select the correct cells
         Name    = fixCharacter(cells[0].text)   # Name of the quest
+        Pack    = fixCharacter(cells[3].text)
         Casual  = fixCharacter(cells[6].text)   # Casual Difficulty
         Normal  = fixCharacter(cells[7].text)   # Normal Difficulty
         Hard    = fixCharacter(cells[8].text)   # Hard Difficulty
